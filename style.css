@@ -1,0 +1,187 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overscroll-behavior: smooth;
+  font-family: 'poppins', sans-serif;
+}
+
+.carousel-caption{
+  margin-bottom:15rem;
+}
+
+#bootstrap{
+  text-shadow: 2px 9px 8px #000000;
+  font-size: 6rem;
+}
+
+.carousel-caption p{
+  text-shadow: 2px 9px 8px #000000;
+  font-size:2rem;
+}
+
+.image-slider{
+  position: relative;
+}
+
+
+#btnget{
+  background-color: purple;
+}
+
+#btnget:hover{
+  background-color: rgb(218, 20, 218);
+  color:white !important;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: space-between;
+}
+
+.border1{
+  max-width: 45rem;
+  border:2px solid;
+}
+
+
+#click{
+  padding-left: 40rem; 
+  font-weight: bolder;
+}
+
+.fixed-background {
+  background: url(img/mac.png) center / cover no-repeat;
+  background-attachment: fixed;
+  min-height:43rem;
+}
+
+
+footer{
+  background-color: rgba(0, 0, 0, 0.864);
+  padding-bottom: 2rem;
+}
+
+.border{
+  border: 1px solid;
+  margin-top: 1rem;
+}
+
+#social-links{
+  font-size: 4rem; 
+  font-weight: bolder;
+}
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .carousel-caption{
+    margin-bottom: 6rem;
+  }
+
+  #click{
+    padding-left: 27rem; 
+    font-weight: bolder;
+  }
+
+  }
+
+
+@media (max-width: 768px) {
+  #bootstrap{
+    text-shadow: 2px 9px 8px #000000;
+    font-size: 5rem;
+
+  }
+  
+
+  #click{
+    padding-left: 20rem; 
+    font-weight: bolder;
+  }
+
+  .border1{
+    max-width: 30rem;
+    border:2px solid;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .carousel-caption{
+    margin-bottom: 15px;
+  }
+
+  .carousel-caption p{
+    text-shadow: 2px 9px 8px #000000;
+    font-size: 1rem;
+  }
+
+  #bootstrap{
+    text-shadow: 2px 9px 8px #000000;
+    font-size: 3rem;
+  }
+
+  #social-links{
+    font-size: 2rem; 
+    font-weight: bolder;
+  }
+
+  #click{
+    padding-left: 13rem; 
+    font-weight: bolder;
+  }
+}
+
+@media(max-width: 450px){
+  .carousel-caption{
+    margin-top: 1.5rem;
+  }
+
+  #click{
+    padding-left: 10rem; 
+    font-weight: bolder;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
